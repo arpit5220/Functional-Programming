@@ -1,0 +1,54 @@
+Quest 1: How we can Create Thread.
+Quest 2: Where thread take place in java memory management. // Stack Area
+Quest 3: Diff between creating thread from Runnable interface and Thread class.
+Quest 4: Advantage of creating thread from interface instead of Thread class.
+Quest 5: How to create thread using Runnable but with Lambda, Bcz Runnable is Functional interface has only run() method.
+Quest 6: Why we call start(), instead of directly calling run(), Bcz internally start() calls run().
+Quest 7: Can we start the same thread twice (like t1.start(); t1.start(); -> No
+Quest 8: What is the name of main Thread. -> main
+Quest 9: Thread Life Cycle, what is new, runnable, running, blocked, waiting, Time_waiting, terminated state of Thread.
+Quest 10: What is thread Method join(), yield() method.
+Quest 11: What is interrupt method, and what is the diff between interrupted() vs isInterrupted().
+Quest 12: what is isAlive() method does.
+Quest 13: What is currentThread() method, how can we setName of any thread.
+Quest 14: What is Thread Priority, Normal, MAX, MIN
+Quest 15: What is Demon Thread, how we create demons thread.
+Quest 16: What is Race Condition in Multithreading, Visibility problem -> volatile keyword, Ordering Problem.
+Quest 17: What is synchronized and how it is used, why we need synchronized.
+Quest 18: What is monitor lock.
+Quest 19: What is synchronized block. diff between synchronized block and synchronized method.
+Quest 20: What is Custom locks and custom lock object.
+Quest 21: synchronized (new Object()) {  --> this block has no meaning anymore.
+Quest 22: Static Synchronized block and method , Class Level Locks
+Quest 23: How synchronized insured that only one thread put lock at a time, and that is using CAS.
+Quest 24: InterThread Communication in multithreading , using wait(), notify(), notifyAll(). [ present in object class]
+Quest 25: Explain about wait(), notify() , notifyAll().
+-----------------------------------
+Quest 26: Lock interface in java.
+Quest 27: ReentrantLock in Java.
+-------------------------------------  to be continued.
+Quest 28: Executor Framework in Java.
+Quest 29: Callable vs Runnable.
+Quest 30: executor.submit() vs executor.execute();
+Quest 31: shutdown() and shutdownNow()
+Quest 32: Thread creating method in java.
+Quest 33: How ThreadPoolExecutor works in java.
+Quest 34: Future in JAVA.
+Quest 35: Methods in Future.
+Quest 36: Completable future in java.
+Quest 37: Fork - join pool.
+Quest 38: ThreadLocal and Virtual Thread.
+
+
+
+
+
+
+Points to Remember
+1. By default Threads don't follow the deterministic order means linear order
+2. yield() is static method can be call using Thread,yield();
+3. yield() we can't use in production
+4. Synchronized is overhead, slow that's why we don't used it in production, now we have optimistic locking mechanism to use.
+5. wait(),notify(),notifyAll() is used with Synchronized() method/block.
+6. Runnable has no return type, Callable has return type.
+7.
