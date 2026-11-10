@@ -1,0 +1,18 @@
+package StreamCodingQuestions.SuperEasyQuestions;
+
+import java.util.List;
+
+public class FilterEvenNumberList {
+
+    public static void main(String[] args) {
+
+        List<Integer> list = List.of(1,2,3,4,5,6,7,8);
+
+        List<Integer> res = list.stream()
+                .filter(x-> x%2==0)
+                .map(x-> x*x)
+                .toList();
+
+        System.out.println(res);
+    }
+}
